@@ -50,7 +50,7 @@ section .header:hover .header_logo {
   transform: translateY(0vh);
   opacity: 1;
 }
-section .header:hover .header_circle01, section .header:hover .header_circle02, section .header:hover .header_circle03 {
+section .header:hover .header_circle01, section .header:hover .header_circle02 {
   transform: translateY(0vh);
   opacity: 1;
 }
@@ -68,9 +68,9 @@ section .header .header_logo {
   opacity: 0;
 }
 section .header .header_circle01 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 44vw;
+  left: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
@@ -81,9 +81,9 @@ section .header .header_circle01 > a:visited {
   color: white;
 }
 section .header .header_circle02 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 48vw;
+  right: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
@@ -91,19 +91,6 @@ section .header .header_circle02 {
   color: white;
 }
 section .header .header_circle02 > a:visited {
-  color: white;
-}
-section .header .header_circle03 {
-  font: 300 2vh/5 "Bodoni Moda";
-  position: absolute;
-  left: 52vw;
-  cursor: pointer;
-  transition: all 1s;
-  transform: translateY(-10vh);
-  opacity: 0;
-  color: white;
-}
-section .header .header_circle03 > a:visited {
   color: white;
 }
 section .header .header_menu {

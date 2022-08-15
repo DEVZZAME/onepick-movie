@@ -27,7 +27,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=1000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -164,7 +164,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=9000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -203,7 +203,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=5000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -253,7 +253,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=5000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -375,7 +375,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=3000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -401,7 +401,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=2000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -453,7 +453,7 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=3000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });
 
@@ -481,6 +481,6 @@ ScrollTrigger.create({
     start: "top top ",
     end: "+=3000",
     scrub: 2,
-    markers: true,
+    //markers: true,
     pin: true,
 });

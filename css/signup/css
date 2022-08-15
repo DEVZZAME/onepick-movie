@@ -111,9 +111,6 @@ button:hover {
   width: 100vw;
   height: 10vh;
   z-index: 100;
-  top: 0;
-  left: 0;
-  color: #fff;
 }
 .header:hover .header_logo {
   transform: translateY(0vh);
@@ -213,4 +210,4 @@ button:hover {
   color: #fff;
 }
 
-/*# sourceMappingURL=signup.css.map */
+/*# sourceMappingURL=css.map */

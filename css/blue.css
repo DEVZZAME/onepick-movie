@@ -13,6 +13,14 @@ a {
   text-decoration: none;
 }
 
+* {
+  overscroll-behavior: none !important;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
 .header {
   position: fixed;
   width: 100vw;
@@ -23,9 +31,7 @@ a {
   transform: translateY(0vh);
   opacity: 1;
 }
-.header:hover .header_circle01,
-.header:hover .header_circle02,
-.header:hover .header_circle03 {
+.header:hover .header_circle01, .header:hover .header_circle02 {
   transform: translateY(0vh);
   opacity: 1;
 }
@@ -48,9 +54,9 @@ a {
   opacity: 0;
 }
 .header .header_circle01 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 44vw;
+  left: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
@@ -61,30 +67,17 @@ a {
   color: white;
 }
 .header .header_circle02 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 48vw;
+  right: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
   opacity: 0;
-  color: red;
+  color: white;
 }
 .header .header_circle02 > a:visited {
-  color: red;
-}
-.header .header_circle03 {
-  font: 300 2vh/5 "Bodoni Moda";
-  position: absolute;
-  left: 52vw;
-  cursor: pointer;
-  transition: all 1s;
-  transform: translateY(-10vh);
-  opacity: 0;
-  color: rgb(99, 158, 253);
-}
-.header .header_circle03 > a:visited {
-  color: rgb(99, 158, 253);
+  color: white;
 }
 .header .header_menu {
   font: 300 5vh/2 "Bodoni Moda";
@@ -101,9 +94,10 @@ a {
   height: 100vh;
   position: fixed;
   z-index: 3;
-  background-color: rgb(104, 168, 196);
+  background: url("../img/HS/background.gif");
   display: none;
   color: #fff;
+  z-index: 100;
 }
 .header_opened .header_item01 {
   width: 80vw;
@@ -111,7 +105,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 100;
 }
 .header_opened .header_item01 a {
   margin-bottom: 10vh;

@@ -6,8 +6,16 @@
 /*font-family: 'Bodoni Moda', serif;
 font-family: 'Nanum Gothic Coding', monospace;
 //Bodoni Moda , Rock Salt,Nuosu SIL*/
+*{
+    overscroll-behavior: none !important;
+}
+
 body {
     cursor: url(../cursor/Spiderman_cursor.cur) 2 3, url(../cursor/Spiderman_cursor.cur) 2 3, auto;
+}
+
+*::-webkit-scrollbar {
+    display: none !important;
 }
 
 main {
@@ -25,30 +33,36 @@ main {
         transform: translateY(0vh);
         opacity: 1;
       }
-      .header_circle01, .header_circle02, .header_circle03 {
+      .header_circle01, .header_circle02 {
         transform: translateY(0vh);
         opacity: 1;
       }
       .header_menu {
+        color: #fff;
         transform: translateY(0vh);
         opacity: 1;
       }
     }
     
     .header_logo {
-      font: 300 5vh/2 "Bodoni Moda";
-      position: absolute;
-      left: 7vw;
-      cursor: pointer;
-      transition: all 1s;
-      transform: translateY(-10vh);
-      opacity: 0;
-      color: #fff;
+        background-image: url("../img/JW/header_logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100px; 
+        height: 50px;
+        position: absolute;
+        top: 1vw;
+        left: 7vw;
+        cursor: pointer;
+        transition: all 1s;
+        transform: translateY(-10vh);
+        opacity: 0;
     }
     .header_circle01{
-      font: 300 2vh/5 "Bodoni Moda";
+      font: 300 1.5vw/5 "Bodoni Moda";
       position: absolute;
-      left: 44vw;
+      left: 47.2vw;
       cursor: pointer;
       transition: all 1s;
       transform: translateY(-10vh);
@@ -61,24 +75,9 @@ main {
       }
     }
     .header_circle02{
-      font: 300 2vh/5 "Bodoni Moda";
+      font: 300 1.5vw/5 "Bodoni Moda";
       position: absolute;
-      left: 48vw;
-      cursor: pointer;
-      transition: all 1s;
-      transform: translateY(-10vh);
-      opacity: 0;
-      color: white;
-      >a{
-        &:visited{
-          color: white;
-        }
-      }
-    }
-    .header_circle03{
-      font: 300 2vh/5 "Bodoni Moda";
-      position: absolute;
-      left: 52vw;
+      right: 47.2vw;
       cursor: pointer;
       transition: all 1s;
       transform: translateY(-10vh);
@@ -98,7 +97,6 @@ main {
       transition: all 1s;
       transform: translateY(-10vh);
       opacity: 0;
-      color: #fff;
     }
   }
   .header_opened{
@@ -106,7 +104,7 @@ main {
     height: 100vh;
     position: fixed;
     z-index: 3;
-    background-color: #000;
+    background: url("../img/HS/background.gif");
     display: none;
     color: #fff;
     z-index: 100;
@@ -633,7 +631,7 @@ section {
 
         .famous_img01 {
             position: absolute;
-            background-image: url("../img/famous01.PNG");
+            background-image: url("../img/JW/famous01.PNG");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -645,7 +643,7 @@ section {
 
         .famous_img02 {
             position: absolute;
-            background-image: url("../img/famous02.PNG");
+            background-image: url("../img/JW/famous02.PNG");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -657,7 +655,7 @@ section {
 
         .famous_img03 {
             position: absolute;
-            background-image: url("../img/famous03.PNG");
+            background-image: url("../img/JW/famous03.PNG");
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
@@ -733,7 +731,7 @@ section {
             height: 100%;
 
             .last_img1 {
-                background-image: url("../img/last_spider1.png");
+                background-image: url("../img/JW/last_spider1.png");
                 background-repeat: no-repeat;
                 width: 100%;
                 height: 100%;
@@ -742,7 +740,7 @@ section {
             }
 
             .last_img2 {
-                background-image: url("../img/last_spider2.png");
+                background-image: url("../img/JW/last_spider2.png");
                 width: 100%;
                 height: 100%;
                 background-repeat: no-repeat;
@@ -750,7 +748,7 @@ section {
             }
 
             .last_img3 {
-                background-image: url("../img/last_spider3.png");
+                background-image: url("../img/JW/last_spider3.png");
                 width: 100%;
                 height: 100%;
                 background-repeat: no-repeat;

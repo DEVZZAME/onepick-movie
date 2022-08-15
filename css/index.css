@@ -32,6 +32,7 @@ body section .poster {
   align-items: center;
 }
 body section .poster > div {
+  cursor: pointer;
   width: 18vw;
   height: 50vh;
   transition: all 1s;
@@ -63,13 +64,13 @@ body section .poster > div:hover {
   width: 100vw;
   height: 10vh;
   z-index: 100;
-  color: #fff;
 }
 .header:hover .header_logo {
   transform: translateY(0vh);
   opacity: 1;
 }
-.header:hover .header_circle01, .header:hover .header_circle02, .header:hover .header_circle03 {
+.header:hover .header_circle01,
+.header:hover .header_circle02 {
   transform: translateY(0vh);
   opacity: 1;
 }
@@ -87,9 +88,9 @@ body section .poster > div:hover {
   opacity: 0;
 }
 .header .header_circle01 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 44vw;
+  left: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
@@ -100,9 +101,9 @@ body section .poster > div:hover {
   color: white;
 }
 .header .header_circle02 {
-  font: 300 2vh/5 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
-  left: 48vw;
+  right: 47.2vw;
   cursor: pointer;
   transition: all 1s;
   transform: translateY(-10vh);
@@ -110,19 +111,6 @@ body section .poster > div:hover {
   color: white;
 }
 .header .header_circle02 > a:visited {
-  color: white;
-}
-.header .header_circle03 {
-  font: 300 2vh/5 "Bodoni Moda";
-  position: absolute;
-  left: 52vw;
-  cursor: pointer;
-  transition: all 1s;
-  transform: translateY(-10vh);
-  opacity: 0;
-  color: white;
-}
-.header .header_circle03 > a:visited {
   color: white;
 }
 .header .header_menu {
@@ -143,6 +131,7 @@ body section .poster > div:hover {
   background: url("../img/HS/background.gif");
   display: none;
   color: #fff;
+  z-index: 100;
 }
 .header_opened .header_item01 {
   width: 80vw;
