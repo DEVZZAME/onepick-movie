@@ -13,7 +13,7 @@ gsap.to(".pin", {
     scrub: true,    
     pin: true,
   },
-  x:2000,
+  x:1550,
   duration: 1,
 });
 
@@ -116,6 +116,28 @@ gsap.to(".item05_2_video", {
     scrub: true,   
   },
   opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_characters", {
+  scrollTrigger: {
+    trigger: ".item_characters_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity:1,
+  duration: 1,
+});
+gsap.to(".item_characters", {
+  scrollTrigger: {
+    trigger: ".item_characters_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  color: "transparent",
   duration: 1,
 });
 gsap.to(".item06", {
@@ -266,6 +288,518 @@ gsap.to(".item14_2", {
   color: "transparent",
   duration: 1,
 });
+gsap.to(".item_story_title", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story_title_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 1,
+  duration: 1,
+});
+gsap.to(".item_story_title", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story_title_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  color: "transparent",
+  duration: 1,
+});
+gsap.from(".item_story_circle", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story_circle",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent: 100,
+  yPercent: 100,
+  duration: 1,
+});
+gsap.to(".item_story_circle", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story_circle",
+    toggleActions: "restart",
+    end: "+=3000",
+    // markers: true,
+    scrub: true,   
+  },
+  backgroundColor:"#f7f5f3",
+  duration: 1,
+});
+gsap.to(".item_story_circle", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story04_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  y: -2000,
+  x: -2000,
+  // opacity:0,
+  duration: 1,
+});
+
+// item_part01_img01
+gsap.from(".item_part01_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  yPercent:-120,
+  duration: 1,
+});
+gsap.from(".item_part01_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:130,
+  duration: 1,
+});
+gsap.from(".item_part01_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:-210,
+  duration: 1,
+});
+gsap.from(".item_part01_text01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x: -1200,
+  duration: 1,
+});
+gsap.from(".item_part01_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part01_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part01_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part01_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  y:-1200,
+  duration: 1,
+});
+gsap.to(".item_part01_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:1300,
+  duration: 1,
+});
+gsap.to(".item_part01_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:-1200,
+  duration: 1,
+});
+gsap.to(".item_part01_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part01_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part01_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story01_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  color: "transparent",
+  duration: 1,
+});
+
+// item_part02_img01
+gsap.from(".item_part02_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  yPercent:-120,
+  duration: 1,
+});
+gsap.from(".item_part02_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:140,
+  duration: 1,
+});
+gsap.from(".item_part02_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:210,
+  duration: 1,
+});
+gsap.from(".item_part02_text01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x: -1200,
+  duration: 1,
+});
+gsap.from(".item_part02_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part02_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part02_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part02_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  y:-1200,
+  duration: 1,
+});
+gsap.to(".item_part02_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:1300,
+  duration: 1,
+});
+gsap.to(".item_part02_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:1200,
+  duration: 1,
+});
+gsap.to(".item_part02_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part02_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part02_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story02_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  color: "transparent",
+  duration: 1,
+});
+
+// item_part03_img01
+gsap.from(".item_part03_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  yPercent:-120,
+  duration: 1,
+});
+gsap.from(".item_part03_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:-200,
+  duration: 1,
+});
+gsap.from(".item_part03_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:-210,
+  duration: 1,
+});
+gsap.from(".item_part03_img04", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  xPercent:210,
+  duration: 1,
+});
+gsap.from(".item_part03_text01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x: 1200,
+  duration: 1,
+});
+gsap.from(".item_part03_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part03_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  duration: 1,
+});
+gsap.from(".item_part03_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_in",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part03_img01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=1500",
+    // markers: true,
+    scrub: true,   
+  },
+  y:-1200,
+  duration: 1,
+});
+gsap.to(".item_part03_img02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:-1300,
+  duration: 1,
+});
+gsap.to(".item_part03_img03", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:-1200,
+  duration: 1,
+});
+gsap.to(".item_part03_img04", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  x:1200,
+  duration: 1,
+});
+gsap.to(".item_part03_text01_01", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part03_text01_02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=1000",
+    // markers: true,
+    scrub: true,   
+  },
+  opacity: 0,
+  duration: 1,
+});
+gsap.to(".item_part03_text02", {
+  scrollTrigger: {
+    trigger: ".trigger_item_story03_out",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  color: "transparent",
+  duration: 1,
+});
+
+
+
 gsap.to(".item15", {
   scrollTrigger: {
     trigger: ".trigger_item15_in",
@@ -403,6 +937,17 @@ gsap.to(".item20", {
     scrub: true,   
   },
   color: "transparent",
+  duration: 1,
+});
+gsap.from(".footer", {
+  scrollTrigger: {
+    trigger: ".trigger_footer",
+    toggleActions: "restart",
+    end: "+=2000",
+    // markers: true,
+    scrub: true,   
+  },
+  yPercent: 100,
   duration: 1,
 });
 

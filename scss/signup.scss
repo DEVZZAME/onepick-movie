@@ -121,19 +121,13 @@ button:hover{
 	}
 	
 	.header_logo {
-		background-image: url("../img/JW/header_logo.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      width: 100px; 
-      height: 50px;
-      position: absolute;
-      top: 1vw;
-      left: 7vw;
-      cursor: pointer;
-      transition: all 1s;
-      transform: translateY(-10vh);
-      opacity: 0;
+		font: 300 1.5vw/5 "Bodoni Moda";
+		position: absolute;
+		left: 7vw;
+		cursor: pointer;
+		transition: all 1s;
+		transform: translateY(-10vh);
+		opacity: 0;
 	}
 	.header_circle01{
 		font: 300 1.5vw/5 "Bodoni Moda";
@@ -166,7 +160,7 @@ button:hover{
 		}
 	}
 	.header_menu {
-		font: 300 5vh/2 "Bodoni Moda";
+		font: 300 1.5vw/5 "Bodoni Moda";
 		position: absolute;
 		right: 7vw;
 		cursor: pointer;

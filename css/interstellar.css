@@ -1,9 +1,11 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Nanum+Gothic+Coding:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Carter+One&family=DM+Serif+Display:ital@1&family=Noto+Sans+KR:wght@100;300;400;500&family=Nuosu+SIL&family=Oleo+Script+Swash+Caps&family=Rock+Salt&family=Sawarabi+Gothic&family=Shadows+Into+Light&family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 /*font-family: 'Bodoni Moda', serif;
 font-family: 'Nanum Gothic Coding', monospace;
-//Bodoni Moda , Rock Salt,Nuosu SIL*/
+//Bodoni Moda , Rock Salt,Nuosu SIL
+font-family: 'Aboreto', cursive;*/
 /* RESET */
 * {
   padding: 0;
@@ -59,7 +61,7 @@ section .header:hover .header_menu {
   opacity: 1;
 }
 section .header .header_logo {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   left: 7vw;
   cursor: pointer;
@@ -94,7 +96,7 @@ section .header .header_circle02 > a:visited {
   color: white;
 }
 section .header .header_menu {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   right: 7vw;
   cursor: pointer;
@@ -150,10 +152,10 @@ section .item01 {
   z-index: 1;
 }
 section .item02 {
-  font: 500 7vh/1 "Bodoni Moda";
+  font: 500 5vh/1 "Aboreto";
   position: absolute;
   top: 54vh;
-  right: 7vw;
+  right: 9vw;
   z-index: 1;
 }
 section .item03_1 {
@@ -183,7 +185,7 @@ section .item03_2 {
   overflow: hidden;
 }
 section .item04 {
-  font: 300 2vw/1 "Bodoni Moda";
+  font: 300 1.5vw/1 "Aboreto";
   width: 40vw;
   height: 10vw;
   position: absolute;
@@ -215,11 +217,22 @@ section .item05_2 > video {
   background-position: top center;
   background-size: contain;
 }
+section .item_characters {
+  width: 80vw;
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  text-align: center;
+  opacity: 0;
+}
+section .item_characters > p {
+  font: 300 8vh/1.5 "Aboreto";
+}
 section .item06 {
   position: absolute;
   top: -10vw;
   left: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item06 .item06_img {
   width: 9vw;
@@ -238,7 +251,7 @@ section .item07 {
   position: absolute;
   top: -10vw;
   right: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item07 .item07_img {
   width: 9vw;
@@ -257,7 +270,7 @@ section .item08 {
   position: absolute;
   top: -10vw;
   left: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item08 .item08_img {
   width: 9vw;
@@ -276,7 +289,7 @@ section .item09 {
   position: absolute;
   top: -10vw;
   right: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item09 .item09_img {
   width: 9vw;
@@ -295,7 +308,7 @@ section .item10 {
   position: absolute;
   top: -10vw;
   left: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item10 .item10_img {
   width: 9vw;
@@ -314,7 +327,7 @@ section .item11 {
   position: absolute;
   top: -10vw;
   right: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item11 .item11_img {
   width: 9vw;
@@ -333,7 +346,7 @@ section .item12 {
   position: absolute;
   top: -10vw;
   left: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item12 .item12_img {
   width: 9vw;
@@ -352,7 +365,7 @@ section .item13 {
   position: absolute;
   top: -10vw;
   right: 37vw;
-  opacity: 0.3;
+  opacity: 1;
 }
 section .item13 .item13_img {
   width: 9vw;
@@ -390,6 +403,236 @@ section .item14_2 {
 }
 section .item14_2 > p {
   font: 300 1vw/1.5 "Bodoni Moda";
+}
+section .item_story_title {
+  font: 300 8vh/1.5 "Aboreto";
+  position: absolute;
+  top: 40vh;
+  left: 37.5vw;
+  opacity: 0;
+}
+section .item_story_circle {
+  width: 150vw;
+  height: 150vw;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: -40vh;
+  left: -25vw;
+}
+section .item_part01 {
+  opacity: 1;
+}
+section .item_part01 > .item_part01_img01 {
+  position: absolute;
+  left: 32vw;
+  top: 10vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 36vw;
+  height: 80vh;
+  background-image: url("../img/HS/vp_add02.jpeg");
+}
+section .item_part01 > .item_part01_img02 {
+  position: absolute;
+  left: 62vw;
+  top: 65vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 20vh;
+  background-image: url("../img/HS/vp_add04.jpeg");
+}
+section .item_part01 > .item_part01_img03 {
+  position: absolute;
+  left: 15.5vw;
+  top: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+  height: 60vh;
+  background-image: url("../img/HS/vp01_01.png");
+}
+section .item_part01 > .item_part01_text01 {
+  position: absolute;
+  top: 45vh;
+  left: 20.5vw;
+}
+section .item_part01 > .item_part01_text01 > .item_part01_text01_01 {
+  font: 900 italic 7.5vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  left: 0vw;
+  color: black;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  opacity: 1;
+}
+section .item_part01 > .item_part01_text01 > .item_part01_text01_02 {
+  font: 900 italic 7.5vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  left: 11.3vw;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  opacity: 1;
+}
+section .item_part01 > .item_part01_text02 {
+  font: 300 italic 1vw/1.5 "Nanum Gothic Coding";
+  position: absolute;
+  top: 57vh;
+  left: 70vw;
+  color: black;
+  width: 30vw;
+  opacity: 1;
+}
+section .item_part02 {
+  opacity: 1;
+}
+section .item_part02 > .item_part02_img01 {
+  position: absolute;
+  left: 22vw;
+  top: 10vh;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 75vh;
+  height: 75vh;
+  background-image: url("../img/HS/vp02_02.jpeg");
+}
+section .item_part02 > .item_part02_img02 {
+  position: absolute;
+  left: 52vw;
+  top: 55vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 35vw;
+  height: 40vh;
+  background-image: url("../img/HS/vp02_01.jpeg");
+}
+section .item_part02 > .item_part02_img03 {
+  position: absolute;
+  left: 60.5vw;
+  top: 5vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 20vw;
+  height: 60vh;
+  background-image: url("../img/HS/vp02_03.jpeg");
+}
+section .item_part02 > .item_part02_text01 {
+  position: absolute;
+  top: 83vh;
+  left: 10.5vw;
+  transform: rotate(-90deg);
+}
+section .item_part02 > .item_part02_text01 > .item_part02_text01_01 {
+  font: 900 italic 11vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  left: 0vw;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+section .item_part02 > .item_part02_text01 > .item_part02_text01_02 {
+  font: 900 italic 11vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  width: 50vw;
+  left: 6vw;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+section .item_part02 > .item_part02_text02 {
+  font: 300 italic 1.2vw/1.5 "Nanum Gothic Coding";
+  position: absolute;
+  text-align: right;
+  top: 86vh;
+  left: 1vw;
+  color: black;
+  width: 50vw;
+}
+section .item_part03 {
+  opacity: 1;
+}
+section .item_part03 > .item_part03_img01 {
+  position: absolute;
+  left: 25vw;
+  top: 10vh;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 95vh;
+  height: 65vh;
+  background-image: url("../img/HS/vp03_02.jpeg");
+}
+section .item_part03 > .item_part03_img02 {
+  position: absolute;
+  left: 13.5vw;
+  top: 65vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 15vw;
+  height: 15vw;
+  background-image: url("../img/HS/vp03_01.jpeg");
+}
+section .item_part03 > .item_part03_img03 {
+  position: absolute;
+  left: 15vw;
+  top: 20vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 15vw;
+  background-image: url("../img/HS/vp03_03.jpg");
+}
+section .item_part03 > .item_part03_img04 {
+  position: absolute;
+  left: 70vw;
+  top: 60vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../img/HS/story2342342.jpeg");
+}
+section .item_part03 > .item_part03_text01 {
+  position: absolute;
+  top: 10vh;
+  left: 70.6vw;
+}
+section .item_part03 > .item_part03_text01 > .item_part03_text01_01 {
+  font: 900 italic 11vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  left: 0vw;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+section .item_part03 > .item_part03_text01 > .item_part03_text01_02 {
+  font: 900 italic 11vw/1 "Nanum Gothic Coding";
+  position: absolute;
+  width: 50vw;
+  left: 6vw;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+section .item_part03 > .item_part03_text02 {
+  font: 300 italic 1.2vw/1.5 "Nanum Gothic Coding";
+  position: absolute;
+  text-align: center;
+  top: 80vh;
+  left: 24vw;
+  color: black;
+  width: 50vw;
 }
 section .item15 {
   width: 100vw;
@@ -479,6 +722,30 @@ section .item20 > p {
   font: 300 1vw/1.5 "Bodoni Moda";
 }
 
+.footer {
+  position: absolute;
+  top: 60vh;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0 5vw;
+}
+.footer > p:nth-of-type(1) {
+  font: bold 2.5vw/2 "Aboreto";
+}
+.footer > p:nth-of-type(2) {
+  font: 300 1.7vw/1.2 "Aboreto";
+}
+.footer > p:nth-of-type(3) {
+  font: 300 1.7vw/1.2 "Aboreto";
+}
+.footer > p:nth-of-type(4) {
+  font: 300 1.7vw/1.2 "Aboreto";
+}
+.footer > p:nth-of-type(5) {
+  font: 300 1vw/2 "Aboreto";
+}
+
 /* TRIGGER */
 .trigger_item05_in {
   width: 100vw;
@@ -512,7 +779,7 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item06_in {
+.item_characters_in {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -520,39 +787,15 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item07_in {
+.item_characters_out {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 5500px;
+  top: 7300px;
   background-color: white;
 }
 
-.trigger_item08_in {
-  width: 100vw;
-  height: 30px;
-  position: absolute;
-  top: 5700px;
-  background-color: white;
-}
-
-.trigger_item09_in {
-  width: 100vw;
-  height: 30px;
-  position: absolute;
-  top: 5900px;
-  background-color: white;
-}
-
-.trigger_item10_in {
-  width: 100vw;
-  height: 30px;
-  position: absolute;
-  top: 6100px;
-  background-color: white;
-}
-
-.trigger_item11_in {
+.trigger_item06_in {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -560,7 +803,7 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item12_in {
+.trigger_item07_in {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -568,7 +811,7 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item13_in {
+.trigger_item08_in {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -576,15 +819,47 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item14_in {
+.trigger_item09_in {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 7000px;
+  top: 6900px;
   background-color: white;
 }
 
-.trigger_item14_out {
+.trigger_item10_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 7100px;
+  background-color: white;
+}
+
+.trigger_item11_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 7300px;
+  background-color: white;
+}
+
+.trigger_item12_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 7500px;
+  background-color: white;
+}
+
+.trigger_item13_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 7700px;
+  background-color: white;
+}
+
+.trigger_item14_in {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -592,39 +867,23 @@ section .item20 > p {
   background-color: white;
 }
 
-.trigger_item15_in {
+.trigger_item14_out {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 8500px;
+  top: 9000px;
   background-color: white;
 }
 
-.trigger_item16_in {
+.trigger_item_story_title_in {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 8800px;
+  top: 10000px;
   background-color: white;
 }
 
-.trigger_item16_pro {
-  width: 100vw;
-  height: 30px;
-  position: absolute;
-  top: 8800px;
-  background-color: white;
-}
-
-.trigger_item16_out {
-  width: 100vw;
-  height: 30px;
-  position: absolute;
-  top: 11000px;
-  background-color: white;
-}
-
-.trigger_item18_in {
+.trigger_item_story_title_out {
   width: 100vw;
   height: 30px;
   position: absolute;
@@ -632,11 +891,115 @@ section .item20 > p {
   background-color: white;
 }
 
+.trigger_item_story_circle {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 11500px;
+  background-color: white;
+}
+
+.trigger_item_story01_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 13500px;
+  background-color: white;
+}
+
+.trigger_item_story01_out {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 15500px;
+  background-color: white;
+}
+
+.trigger_item_story02_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 16500px;
+  background-color: white;
+}
+
+.trigger_item_story02_out {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 18500px;
+  background-color: white;
+}
+
+.trigger_item_story03_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 20000px;
+  background-color: white;
+}
+
+.trigger_item_story03_out {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 22500px;
+  background-color: white;
+}
+
+.trigger_item_story04_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 24000px;
+  background-color: white;
+}
+
+.trigger_item15_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 25500px;
+  background-color: white;
+}
+
+.trigger_item16_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 25800px;
+  background-color: white;
+}
+
+.trigger_item16_pro {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 25800px;
+  background-color: white;
+}
+
+.trigger_item16_out {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 28000px;
+  background-color: white;
+}
+
+.trigger_item18_in {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 28500px;
+  background-color: white;
+}
+
 .trigger_item19_in {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 12500px;
+  top: 29500px;
   background-color: white;
 }
 
@@ -644,7 +1007,7 @@ section .item20 > p {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 16000px;
+  top: 33000px;
   background-color: white;
 }
 
@@ -652,7 +1015,7 @@ section .item20 > p {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 16000px;
+  top: 33000px;
   background-color: white;
 }
 
@@ -660,7 +1023,15 @@ section .item20 > p {
   width: 100vw;
   height: 30px;
   position: absolute;
-  top: 18000px;
+  top: 35000px;
+  background-color: white;
+}
+
+.trigger_footer {
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  top: 37000px;
   background-color: white;
 }
 

@@ -45,7 +45,7 @@ body .header:hover .header_menu {
   opacity: 1;
 }
 body .header .header_logo {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   left: 7vw;
   cursor: pointer;
@@ -80,7 +80,7 @@ body .header .header_circle02 > a:visited {
   color: white;
 }
 body .header .header_menu {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   right: 7vw;
   cursor: pointer;

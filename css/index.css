@@ -79,7 +79,7 @@ body section .poster > div:hover {
   opacity: 1;
 }
 .header .header_logo {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   left: 7vw;
   cursor: pointer;
@@ -114,7 +114,7 @@ body section .poster > div:hover {
   color: white;
 }
 .header .header_menu {
-  font: 300 5vh/2 "Bodoni Moda";
+  font: 300 1.5vw/5 "Bodoni Moda";
   position: absolute;
   right: 7vw;
   cursor: pointer;
