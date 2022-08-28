@@ -19,19 +19,19 @@
 
 - ****메인 / 회원가입 / 로그인****
     
-    ![ezgif.com-gif-maker (1).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92e16bcd-ffb2-4302-9e48-d7f453f98538/ezgif.com-gif-maker_(1).gif)
+  <p align="center"><img src="https://github.com/DEVZZAME/onepick-movie/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true"/></p>
     
 
 - ****커뮤니티 페이지****
     
-    ![ezgif.com-gif-maker (2).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd522580-a7b1-4ac3-ab2c-5b17aabee212/ezgif.com-gif-maker_(2).gif)
+  <p align="center"><img src="https://github.com/DEVZZAME/onepick-movie/blob/main/ezgif.com-gif-maker%20(2).gif?raw=true"/></p>
     
 
 - ****인터스텔라 상세 페이지 01***
     
-    ![ezgif.com-gif-maker (3).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5efda665-ae2d-426e-a96a-3ca7498eacc0/ezgif.com-gif-maker_(3).gif)
+  <p align="center"><img src="https://github.com/DEVZZAME/onepick-movie/blob/main/ezgif.com-gif-maker%20(3).gif?raw=true"/></p>
     
 
 - ****인터스텔라 상세 페이지 02****
     
-    ![ezgif.com-gif-maker (4).gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/38e5416f-74ee-4969-8752-ff345bc967dd/ezgif.com-gif-maker_(4).gif)
+  <p align="center"><img src="https://github.com/DEVZZAME/onepick-movie/blob/main/ezgif.com-gif-maker%20(4).gif?raw=true"/></p>
