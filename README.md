@@ -7,6 +7,8 @@
 - **사용 기술**
     - **HTML5, CSS3, SCSS, Javascript, Jquery**
     - **GSAP, ScrollTrigger, Netlify**
+
+
 - **담당 구현 파트**
     - **프로젝트 개발환경 구축, 설계 참여**
     - **메인 페이지 구현**
